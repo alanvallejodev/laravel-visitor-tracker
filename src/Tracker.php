@@ -51,7 +51,7 @@ class Tracker
 
         $visit = Visit::create($data);
 
-        GetGeoipData::dispatch($visit);
+        //GetGeoipData::dispatch($visit);
 
         return $visit;
     }
